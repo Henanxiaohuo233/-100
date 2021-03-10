@@ -47,3 +47,11 @@ public class zhekou {
         }
     }
 }
+
+int[] arr1 = {1, 2, 3, 4};
+        int[] arr2 = {1, 2, 3, 4};
+        if (Arrays.equals(arr1,arr2)) {
+            System.out.println("对");
+        }else{
+            System.out.println("错误");
+        }
